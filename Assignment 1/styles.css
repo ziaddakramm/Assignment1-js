@@ -1,6 +1,4 @@
-/* Define a CSS variable for background color */
 
-/* Apply background color using the defined variable */
 body {
     background-color: gray;
 }
