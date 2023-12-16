@@ -1,0 +1,48 @@
+/* Define a CSS variable for background color */
+
+/* Apply background color using the defined variable */
+body {
+    background-color: gray;
+}
+
+
+
+
+.col-md-6 left{
+color: black;
+}
+.image{
+    background-color: gray;
+}
+
+
+.block {
+    background-color: gray;
+    width: 13vw; /* Set the width */
+    height: 23vh; /* Set the height */
+}
+
+.colLeft {
+    border-right: 0.5vw solid black ; /* Change border color and style as needed */
+    border-top: 0.01vh solid black;
+}
+
+.colRight {
+    border-left: 0.5vw solid black ; /* Change border color and style as needed */
+    border-top: 0.01vh solid black;
+}
+
+
+.btn{
+    color: white;
+    background-color: black;
+    border-color: black;
+    
+}
+
+.btn:disabled{
+    color: white;
+    background-color: black;
+    border-color: black;
+    
+}

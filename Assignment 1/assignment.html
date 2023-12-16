@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Difference </title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+<header><h1>Find the Difference</h1>
+<h2 id="levelHeader">Level 1</h2></header>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left column -->
+        <div class="col-md-6 colLeft  " id="leftColumn">
+            <div class="row">
+                <!-- Divide the column into nine blocks -->
+                <!-- Each block will be randomly allocated with an image -->
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft1"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft2"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft3"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft4"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft5"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft6"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft7"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft8"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Left" id="blockLeft9"></div>
+                </div>
+            </div>
+            <div class="text-center text-md-left">
+                    <button id="startButton" class="btn btn-primary mt-3">Play</button>
+                    <button id="resetButton" class="btn btn-primary mt-3" onclick="resetGame()">Restart</button>
+                </div>
+        </div>
+
+        <!-- Right column -->
+        <div class="col-md-6 colRight" id="rightColumn">
+
+            <div class="row">
+                <!-- Divide the column into nine blocks -->
+                <!-- ... Blocks in the second column (similar structure as the first column) -->
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight1"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight2"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight3"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight4"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight5"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight6"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight7"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight8"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="block Right" id="blockRight9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assignment.js"></script>
+</body>
+
+</html>
