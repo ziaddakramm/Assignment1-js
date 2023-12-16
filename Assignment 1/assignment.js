@@ -7,7 +7,7 @@ let  randomDuplicate =0;
 //Random col location
 let randomCol=0;
 
-let imageUrl="image2.jpg";
+let imageUrl="image1.jpg";
 
 //retrieve the left column
 let leftColumn = document.getElementById('leftColumn');
